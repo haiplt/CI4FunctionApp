@@ -34,7 +34,7 @@ using System.Collections.Generic;
 
 public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
 {
-    log.Info($"---------- Update from VS. Now we can publish this code with Git .Function started  ----------------------------------------------------");
+    log.Info($"---------- Now we can publish this code with Git.Update from VS.Function started  ----------------------------------------------------");
     log.Info($"GenericWebhookCSharpAzureBlobToSFTP was triggered!");
 
     string strUploadResult = string.Empty;
