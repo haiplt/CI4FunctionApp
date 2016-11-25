@@ -24,6 +24,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CI4FunctionApp", ".", "{666
 		SlnRelativePath = "..\CI4FunctionApp\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureUtility", "AzureUtility\AzureUtility.csproj", "{CD6C6069-F70E-435F-93AA-3C556C0E5D5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{66657F6B-5B21-4F8F-A68D-F06E55F5EA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66657F6B-5B21-4F8F-A68D-F06E55F5EA5C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{66657F6B-5B21-4F8F-A68D-F06E55F5EA5C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CD6C6069-F70E-435F-93AA-3C556C0E5D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6C6069-F70E-435F-93AA-3C556C0E5D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6C6069-F70E-435F-93AA-3C556C0E5D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6C6069-F70E-435F-93AA-3C556C0E5D5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

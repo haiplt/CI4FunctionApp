@@ -43,8 +43,7 @@ public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
 
     AzureBlobStorageToSFTP objUpload = new AzureBlobStorageToSFTP();
 
-    if (!objUpload.InitVariable(data))
-    {
+    if (!objUpload.InitVariable(data))    {
         log.Info(objUpload.ExceptionDetails);
         return req.CreateResponse(HttpStatusCode.BadRequest, new
         {
